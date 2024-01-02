@@ -1,0 +1,31 @@
+{
+  "name": "certgen",
+  "version": "0.0.0",
+  "description": "Generate ssl certificate tool.",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zekunjin/certgen.git"
+  },
+  "keywords": [
+    "ssl",
+    "certificate",
+    "cli"
+  ],
+  "author": "zekun.jin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zekunjin/certgen/issues"
+  },
+  "homepage": "https://github.com/zekunjin/certgen#readme",
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "eslint": "^8.56.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.1"
+  }
+}

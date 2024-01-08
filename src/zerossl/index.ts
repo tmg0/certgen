@@ -1,3 +1,3 @@
-export default (config: CertgenConfig) => {
-
+export default ({ zerossl }: CertgenConfig) => {
+  if (!zerossl) { return }
 }

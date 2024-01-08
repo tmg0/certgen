@@ -4,7 +4,6 @@ import zerossl from './zerossl'
 
 const run = <T extends (config: CertgenConfig) => void>(cmd: T) => () => {
   loadConfig<CertgenConfig>({ name: 'certgen' }).then(({ config }) => { if (config) cmd(config) })
-  
 }
 
-new CronJob('* * * * * *', run(zerossl), null, true, 'America/Los_Angeles')
+new CronJob('* * * * * *', run(zerossl))

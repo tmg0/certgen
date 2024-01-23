@@ -4,6 +4,7 @@
   "description": "Generate ssl certificate tool.",
   "main": "dist/index.mjs",
   "scripts": {
+    "start": "jiti src/index.ts",
     "test": "vitest"
   },
   "repository": {
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "eslint": "^8.56.0",
+    "jiti": "^1.21.0",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
     "vitest": "^1.1.1"
